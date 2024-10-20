@@ -1,0 +1,13 @@
+let fruits = ["apple", "banana", "orange", "mango"];
+console.log("Fruits array:", fruits);
+
+for (let i = 0; i < fruits.length; i++) {
+  console.log("Fruit:", fruits[i]);
+}
+let numbers = [1, 2, 3, 4];
+console.log("Original array:", numbers);
+
+numbers.push(5); // Add an element to the end
+numbers.unshift(0); // Add an element to the beginning
+
+console.log("Updated array:", numbers);

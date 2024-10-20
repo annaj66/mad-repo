@@ -1,0 +1,12 @@
+let colors = ["red", "green", "blue", "yellow"];
+console.log("Original array:", colors);
+
+colors.pop(); // Remove the last element
+colors.shift(); // Remove the first element
+
+console.log("Updated array:", colors);
+ let arr = [1, 2, 3, 4, 5];
+console.log("Original array:", arr);
+
+let reversedArr = arr.reverse();
+console.log("Reversed array:", reversedArr);
